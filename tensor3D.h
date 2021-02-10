@@ -9,8 +9,8 @@ private:
     int width;
 
 public:
-    Tensor3D() = delete();
-    Tensor3D(const int depth_, const int heigth_, const width_);
-}
+    Tensor3D() = delete;
+    Tensor3D(const int depth_, const int heigth_, const int width_);
+};
 
 #endif
