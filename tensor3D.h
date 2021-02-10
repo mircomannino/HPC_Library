@@ -3,7 +3,7 @@
 
 class Tensor3D {
 private:
-    float ***data;
+    double ***data;
     int depth;
     int heigth;
     int width;
